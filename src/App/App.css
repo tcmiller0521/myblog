@@ -1,0 +1,227 @@
+:root {
+  --bs-dark: #46433e;
+  --bs-dark-rgb: 70, 67, 62;
+  --bs-light: #fdf9ed;
+  --bs-light-rgb: 251, 247, 235;
+  --bs-primary: #807f3c;
+  --bs-primary-rgb: 128, 127, 60;
+  --bs-secondary: #b36b39;
+  --bs-secondary-rgb: 179, 107, 57;
+  --bs-alert: #96abb0;
+  --bs-alert-rgb: 150, 171, 176; 
+}
+
+body{
+  background-color: var(--bs-light);
+  padding: 0;
+  margin: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Oswald";
+  src: url(./assets/fonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(./assets/fonts/roboto/Roboto-Italic.ttf);
+}
+
+.nav-container {
+  width: 95vw;
+  text-align: center;
+}
+
+.containers {
+  width: 90vw;
+}
+
+/* Text */
+h1 {
+  font-family: Oswald;
+  color: #46433e;
+}
+
+h2 {
+  font-family: Oswald;
+  color: var(--bs-light)
+}
+
+p {
+  font-family: Roboto;
+
+  color: #46433e;
+}
+
+.blog-content {
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.btn-alert {
+  background-color: var(--bs-alert) !important;
+  border: none;
+}
+
+/* Navbar */
+.banner {
+  margin: auto;
+  width: 100%;
+  height: 18px;
+  background-image: url(assets/top\ design.png);
+}
+
+.topnav {
+  border-bottom: 1px #ece6d8 solid;
+}
+
+.navtext {
+  font-size: 22px;
+  font-family: Oswald;
+}
+
+/* Header */
+
+.header-image {
+  height: 62vh;
+}
+
+.header-text {
+  font-family: Oswald;
+  color: #b36b39;
+}
+
+.about-btn {
+  font-family: Oswald;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* Latest Articles */
+ .latest-line {
+   height: 5px;
+   background-color: #807f3c;
+   width: 13rem;
+ }
+
+ .homepage-cards {
+   width: 50px;
+   height: 240px;
+ }
+
+ .card-date {
+   color: var(--bs-light);
+   font-family: Roboto-Italic;
+   font-size: 12px;
+ }
+
+ .article-pic {
+   width: 200px;
+ }
+
+ .article-title {
+   font-family: Oswald;
+   font-size: 18px;
+   color: var(--bs-light)
+ }
+
+/*Featured Articles*/
+.featured-divider {
+  height: 5px;
+  background-color: #807f3c;
+  width: 15.4rem;
+}
+
+.carousel-image {
+  max-height: 70vh;
+}
+
+/*Meet the Authors*/
+
+.author-divider {
+  height: 5px;
+  background-color: #807f3c;
+  width: 15.8rem;
+}
+
+.author-name {
+  font-family: Oswald;
+  color: var(--bs-light)
+}
+
+.aboutus-divider {
+  height: 5px;
+  background-color: #807f3c;
+  width: 16.5rem;
+}
+
+.browse-author-divider {
+  height: 5px;
+  background-color: #807f3c;
+  width: 23.5rem;
+}
+/*Related Articles*/
+.related-divider {
+  height: 5px;
+  background-color: #807f3c;
+  width: 10.5rem;
+}
+
+.related-title {
+  font-family: Oswald;
+}
+
+.related-date {
+  font-family: Roboto-Italic;
+  font-size: 12px;
+}
+
+
+/*Footer*/
+.footer-logo {
+  padding: .8rem;
+}
+
+.footer-container {
+  width:28vw;
+}
+
+.newsletter-container {
+  width: 89vw;
+}
+
+.blog-footer {
+  text-align: center;
+  background-color: var(--bs-secondary);
+  position: sticky;
+  width: 100%;
+  height: 15vh;
+}
+
+.footer-div {
+  width: 100%;
+}
+
+.footer-text {
+  font-family: Roboto-Italic;
+  font-size: 14px;
+  color: var(--bs-light);
+}
+
+.news-div {
+  height: 3vh;
+}
+
+.blue-card {
+  background-color: #96abb0;
+}
+
+
+
