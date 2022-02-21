@@ -1,8 +1,8 @@
 import OakleyPoke from '../../assets/oakley-01.png'
 import DogWalkingWide from '../images/dog-walking-wide.png'
 import DogWalkingSq from '../images/dog-walking-square.png'
-import DogLeashWide from '../images/dog-holding-leash-wide.png'
-import DogLeashSq from '../images/dog-holding-leash-sq.png'
+import DogHiking from '../images/dog-hiking-sq.png';
+import DogHikingWide from '../images/dog-hiking-wide.png';
 import DogTreatsWide from '../images/dog-treats-wide.png'
 import DogTreatsSq from '../images/dog-treats-sq.png'
 
@@ -28,14 +28,14 @@ const FeaturedArticleInfo = [
     color: "blue-card",
     },
 
-    {title: "Retractable Leashes, good or bad?",
-    description: "Do retractable leashes cause pulling? Are they okay to use? Can you use them without having issues? Here are some of our thoughts and opinions!",
-    date: "November 5, 2021",
+    {title: "Our Favorite Places to Hike!",
     author: "Matthew Miller",
-    image: DogLeashWide,
-    squareImage: DogLeashSq,
-    color: "bg-primary", 
-    link: "./looseLeashArticle"
+    date: "November 12, 2021",
+    description: "Have you ever wanted to take your dog for a mountain hike but didn't quite know where to go? Well here is a short list of fun places!",
+    squareImage: DogHiking,
+    image: DogHikingWide,
+    link: './ourfavoriteplacestohike',
+    color: "bg-primary"
     },
 ]
 

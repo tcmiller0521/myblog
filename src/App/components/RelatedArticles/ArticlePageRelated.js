@@ -25,7 +25,6 @@ const RelatedArticles = () => {
                     </Col>
                     <Col lg="8" md="7" sm="8" xs="8" className="mx-0 px-0 rounded" className={RelatedArticleInfo.color}>
                         <p className="text-light related-title mb-0 pb-0 pt-2">{RelatedArticleInfo.title}</p>
-                        <small className="text-light">{RelatedArticleInfo.description}</small>
                         <div className="border-top">
                             <p className="text-light related-date text-end mb-0 pb-0 pe-2">{RelatedArticleInfo.date} | By {RelatedArticleInfo.author}</p>
                         </div>

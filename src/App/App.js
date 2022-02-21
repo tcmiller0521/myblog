@@ -50,7 +50,6 @@ const App = () => {
         <Route path="/browse">
           <BrowsePage />
           <BrowseLatest />
-          <BrowseLatest />
         </Route>
         <Route path="/contact">
           <ContactUsPage />
